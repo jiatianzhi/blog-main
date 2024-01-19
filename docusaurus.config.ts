@@ -107,7 +107,7 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            { label: 'About', to: '/about' },
+            { label: 'About Me', to: '/about' },
             { label: 'Friends', position: 'right', to: 'friends' },
             { label: 'Links', position: 'right', to: 'resources' },
             {
