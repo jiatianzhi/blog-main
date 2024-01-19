@@ -4,11 +4,11 @@
     "description": "hero greet"
   },
   "homepage.hero.name": {
-    "message": "Kuizuo",
+    "message": "Tianzhi Jia",
     "description": "hero name"
   },
   "homepage.hero.text": {
-    "message": "Here I will share the problems and solutions encountered by various technology stacks, take you to understand the latest technology stacks and how to apply them in actual development, and hope that my development experience will inspire you",
+    "message": "Keep learning is all you need",
     "description": "hero text"
   },
   "hompage.hero.introduce": {
