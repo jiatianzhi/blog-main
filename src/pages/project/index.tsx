@@ -13,7 +13,7 @@ import { upperFirst } from '@site/src/utils/jsUtils'
 
 const TITLE = translate({
   id: 'theme.project.title',
-  message: '项目',
+  message: 'Projects',
 })
 const DESCRIPTION = translate({
   id: 'theme.project.description',

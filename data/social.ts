@@ -9,6 +9,8 @@ export type Social = {
   zhihu?: string
   email?: string
   discord?: string
+  bilibili?: string
+  weibo?: string
 }
 
 type SocialValue = {
@@ -20,15 +22,17 @@ type SocialValue = {
 
 const social: Social = {
   github: 'https://github.com/jiatianzhi',
-  twitter: 'https://twitter.com/kuizuo',
-  juejin: 'https://juejin.cn/user/1565318510545901',
+  // twitter: 'https://twitter.com/kuizuo',
+  // juejin: 'https://juejin.cn/user/1565318510545901',
   csdn: 'https://blog.csdn.net/kuizuo12',
   qq: 'https://img.kuizuo.cn/qq.png',
   wx: 'https://img.kuizuo.cn/wechat.png',
   zhihu: 'https://www.zhihu.com/people/jiatianzhi',
   // cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
   email: 'mailto:jiatianzhi@bjtu.edu.cn',
-  discord: 'https://discord.gg/M8cVcjDxkz',
+  // discord: 'https://discord.gg/M8cVcjDxkz',
+  bilibili: 'https://space.bilibili.com/249801950',
+  weibo: 'https://weibo.com/jiatianzhi',
 }
 
 const socialSet: Record<keyof Social, SocialValue> = {
@@ -40,9 +44,21 @@ const socialSet: Record<keyof Social, SocialValue> = {
   },
   zhihu: {
     href: social.zhihu,
-    title: '知乎',
+    title: 'Zhihu',
     icon: 'ri:zhihu-line',
     color: '#1772F6',
+  },
+  bilibili: {
+    href: social.bilibili,
+    title: 'Bilibili',
+    icon: 'ri:bilibili-line',
+    color: '#1296db',
+  },
+  weibo: {
+    href: social.weibo,
+    title: 'Weibo',
+    icon: 'ri:weibo-line',
+    color: '#C20C0C',
   },
   juejin: {
     href: social.juejin,
@@ -62,6 +78,12 @@ const socialSet: Record<keyof Social, SocialValue> = {
     icon: 'ri:discord-line',
     color: '#5A65F6',
   },
+  email: {
+    href: social.email,
+    title: 'E-Mail',
+    icon: 'ri:mail-line',
+    color: '#D44638',
+  },
   qq: {
     href: social.qq,
     title: 'QQ',
@@ -70,15 +92,9 @@ const socialSet: Record<keyof Social, SocialValue> = {
   },
   wx: {
     href: social.wx,
-    title: '微信',
+    title: 'WeChat',
     icon: 'ri:wechat-2-line',
     color: '#07c160',
-  },
-  email: {
-    href: social.email,
-    title: '邮箱',
-    icon: 'ri:mail-line',
-    color: '#D44638',
   },
   cloudmusic: {
     href: social.cloudmusic,
@@ -86,12 +102,12 @@ const socialSet: Record<keyof Social, SocialValue> = {
     icon: 'ri:netease-cloud-music-line',
     color: '#C20C0C',
   },
-  rss: {
-    href: '/blog/rss.xml',
-    title: 'RSS',
-    icon: 'ri:rss-line',
-    color: '#FFA501',
-  },
+  // rss: {
+  //   href: '/blog/rss.xml',
+  //   title: 'RSS',
+  //   icon: 'ri:rss-line',
+  //   color: '#FFA501',
+  // },
 }
 
 export default socialSet

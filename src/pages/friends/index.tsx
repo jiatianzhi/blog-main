@@ -8,7 +8,7 @@ import { Friends } from '@site/data/friends'
 import styles from './styles.module.css'
 import { motion } from 'framer-motion'
 
-const TITLE = '友链'
+const TITLE = 'Friends'
 const DESCRIPTION = '有很多良友，胜于有很多财富。'
 const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friends.tsx'
 const SITE_INFO = `

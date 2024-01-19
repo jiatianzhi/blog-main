@@ -84,7 +84,7 @@ function Name() {
         e.currentTarget.style.setProperty('--y', `${e.clientY}px`)
       }}
     >
-      <Translate id="homepage.hero.greet">你好! 我是</Translate>
+      <Translate id="homepage.hero.greet">Hello! I'm </Translate>
       <span
         className={styles.name}
         onMouseMove={e => {
@@ -93,7 +93,7 @@ function Name() {
           e.currentTarget.style.setProperty('--mouse-y', `${bounding.y}px`)
         }}
       >
-        <Translate id="homepage.hero.name">贾添植</Translate>
+        <Translate id="homepage.hero.name">Tianzhi Jia</Translate>
       </span>
       <span className={styles.wave}>👋</span>
     </motion.div>
@@ -107,7 +107,7 @@ export default function Hero() {
         <Name />
         <motion.p custom={2} initial="hidden" animate="visible" variants={variants}>
           <Translate id="homepage.hero.text">
-            {`锦衣未加身，独在夜中行。`}
+            {`Keep Learning is All We Need.`}
           </Translate>
         </motion.p>
         <motion.div custom={3} initial="hidden" animate="visible" variants={variants}>
@@ -124,7 +124,7 @@ export default function Hero() {
           <div className={styles.outer}>
             <div className={styles.gradient} />
             <a className={styles.button} href={'./about'}>
-              <Translate id="hompage.hero.introduce">自我介绍</Translate>
+              <Translate id="hompage.hero.introduce">About Me</Translate>
             </a>
           </div>
         </motion.div>

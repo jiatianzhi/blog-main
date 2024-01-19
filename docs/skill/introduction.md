@@ -1,7 +1,7 @@
 ---
 id: introduction
 slug: /skill
-title: 技术笔记
+title: Notes
 keywords:
   - 前端
   - 后端

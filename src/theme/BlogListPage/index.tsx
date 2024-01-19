@@ -21,7 +21,7 @@ function BlogListPageMetadata(props: Props): JSX.Element {
 
   return (
     <>
-      <PageMetadata title={`Blog`} description={blogDescription} />
+      <PageMetadata title={`Blogs`} description={blogDescription} />
       <SearchMetadata tag="blog_posts_list" />
     </>
   )
@@ -65,7 +65,7 @@ function BlogListPageContent(props: Props) {
   return (
     <MyLayout>
       <h2 className={styles.blogTitle}>
-        <Translate id="theme.blog.title.new">博客</Translate>
+        <Translate id="theme.blog.title.new">Blogs</Translate>
       </h2>
       <p className={styles.blogDescription}>代码人生：编织技术与生活的博客之旅</p>
       <ViewTypeSwitch viewType={viewType} toggleViewType={toggleViewType} />

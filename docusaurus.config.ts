@@ -4,8 +4,8 @@ import { themes } from 'prism-react-renderer'
 import { GiscusConfig } from './src/components/Comment'
 import social from './data/social'
 
-const beian = '闽ICP备2020017848号-2'
-const beian1 = '闽公网安备35021102000847号'
+const beian = '黑ICP备2021004587号-2'
+const beian1 = '黑公网安备35021102000847号'
 
 const config: Config = {
   title: 'Tianzhi Jia (贾添植)', //网页标签标题
@@ -15,7 +15,7 @@ const config: Config = {
   organizationName: 'jiatianzhi',
   projectName: 'blog',
   customFields: {
-    bio: '锦衣未加身，独在夜中行。',
+    bio: 'Keep Learning is All We Need.',
     description:
       '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
@@ -53,28 +53,28 @@ const config: Config = {
       hideOnScroll: true,
       items: [
         {
-          label: '笔记',
+          label: 'Notes',
           position: 'right',
           to: 'docs/skill',
         },
         {
-          label: '博客',
+          label: 'Blogs',
           position: 'right',
           to: 'blog',
         },
         {
-          label: '项目',
+          label: 'Projects',
           position: 'right',
           to: 'project',
         },
         {
-          label: '更多',
+          label: 'More',
           position: 'right',
           items: [
-            { label: '归档', to: 'blog/archive' },
-            { label: '资源', to: 'resources' },
-            { label: '友链', to: 'friends' },
-            { label: '工具推荐', to: 'docs/tools' },
+            { label: 'Archive', to: 'blog/archive' },
+            { label: 'Friends', to: 'friends' },
+            { label: 'Links', to: 'resources' },
+            { label: 'Recommended Tools', to: 'docs/tools' },
           ],
         },
         {
@@ -87,30 +87,29 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: '学习',
+          title: 'Study',
           items: [
-            { label: '博客', to: 'blog' },
-            { label: '归档', to: 'blog/archive' },
-            { label: '笔记', to: 'docs/skill' },
-            { label: '项目', to: 'project' },
-            { label: '前端示例', to: 'https://example.kuizuo.cn' },
+            { label: 'Notes', to: 'docs/skill' },
+            { label: 'Blogs', to: 'blog' },
+            { label: 'Archive', to: 'blog/archive' },
+            { label: 'Projects', to: 'project' },
           ],
         },
         {
-          title: '社交媒体',
+          title: 'Social Media',
           items: [
-            { label: '关于我', to: '/about' },
             { label: 'GitHub', href: social.github.href },
-            { label: 'Twitter', href: social.twitter.href },
-            { label: '掘金', href: social.juejin.href },
-            { label: 'Discord', href: social.discord.href },
+            { label: 'Zhihu', href: social.zhihu.href },
+            { label: 'Bilibili', href: social.bilibili.href },
+            { label: 'Weibo', href: social.weibo.href },
           ],
         },
         {
-          title: '更多',
+          title: 'More',
           items: [
-            { label: '友链', position: 'right', to: 'friends' },
-            { label: '导航', position: 'right', to: 'resources' },
+            { label: 'About', to: '/about' },
+            { label: 'Friends', position: 'right', to: 'friends' },
+            { label: 'Links', position: 'right', to: 'resources' },
             {
               html: `
                 <a href="https://docusaurus.io/zh-CN/" target="_blank" rel="noreferrer noopener">

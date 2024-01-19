@@ -103,7 +103,7 @@ export default function ProjectSection() {
   return (
     <section className={clsx('container padding-vert--sm', styles.projectContainer)}>
       <SectionTitle icon={'ri:projector-line'} href={'/project'}>
-        <Translate id="homepage.project.title">项目展示</Translate>
+        <Translate id="homepage.project.title">Projects Showcase</Translate>
       </SectionTitle>
       <div className={styles.content}>
         <div style={{ overflow: 'hidden' }}>
