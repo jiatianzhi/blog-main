@@ -8,11 +8,11 @@
     "description": "hero name"
   },
   "homepage.hero.text": {
-    "message": "Keep learning is all you need",
+    "message": "Keep Learning is All We Need.",
     "description": "hero text"
   },
   "hompage.hero.introduce": {
-    "message": "Introduce"
+    "message": "About Me"
   },
   "homepage.blog.title": {
     "message": "Recent Blogs"
@@ -24,16 +24,16 @@
     "message": "Projects Showcase"
   },
   "homepage.feature.title": {
-    "message": "Feature"
+    "message": "Focus on"
   },
   "homepage.feature.developer": {
-    "message": "Typescript Developer"
+    "message": "Python"
   },
   "homepage.feature.spider": {
-    "message": "Know a little Reverse"
+    "message": "Deep Learning"
   },
   "homepage.feature.enthusiast": {
-    "message": "Open source enthusiast"
+    "message": "3D Vision"
   },
   "theme.blog.archive.posts.total": {
     "message": "Total {total} posts"
@@ -42,7 +42,7 @@
     "message": "posts"
   },
   "theme.project.title": {
-    "message": "Projects Showcase"
+    "message": "Projects"
   },
   "theme.project.description": {
     "message": "Here is the best proof of my hard practice and application in the field of technology."
@@ -78,7 +78,7 @@
     "message": "Recommend Blog"
   },
   "theme.blog.title.new": {
-    "message": "New Blog"
+    "message": "Blogs"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",

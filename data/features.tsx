@@ -17,8 +17,7 @@ const FEATURES: FeatureItem[] = [
     }),
     text: (
       <Translate>
-        作为一名 TypeScript 全栈工程师，秉着能用 TS 绝不用 JS
-        的原则，为项目提供类型安全的保障，提高代码质量和开发效率。
+        Unleash the versatility of Python: From web development to data analysis, discover how Python's simplicity meets sophistication.
       </Translate>
     ),
     Svg: WebDeveloperSvg,
@@ -30,7 +29,7 @@ const FEATURES: FeatureItem[] = [
     }),
     text: (
       <Translate>
-        作为一名曾学习与实践逆向工程两年半的开发者，对于逆向工程有着浓厚的兴趣，同时造就了超凡的阅读代码能力。没有看不懂的代码，只有不想看的代码。
+        Embark on a deep learning journey: Unlock the secrets of AI through our engaging and detailed explorations of neural networks.
       </Translate>
     ),
     Svg: SpiderSvg,
@@ -42,7 +41,7 @@ const FEATURES: FeatureItem[] = [
     }),
     text: (
       <Translate>
-        作为一名开源爱好者，积极参与开源社区，为开源项目贡献代码，希望有生之年能够构建出一个知名的开源项目。
+        Step into the future with 3D Computer Vision: Experience how we bring depth and perception to machines, transforming the digital world.
       </Translate>
     ),
     Svg: OpenSourceSvg,
