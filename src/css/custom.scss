@@ -1,11 +1,11 @@
 :root {
-  --ifm-color-primary: #3cad6e;
-  --ifm-color-primary-dark: #359962;
-  --ifm-color-primary-darker: #33925d;
-  --ifm-color-primary-darkest: #2e8555;
-  --ifm-color-primary-light: #29784c;
-  --ifm-color-primary-lighter: #277148;
-  --ifm-color-primary-lightest: #205d3b;
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --ifm-font-family-base: misans, ui-sans-serif, system-ui, -apple-system;
 
@@ -53,8 +53,14 @@
 }
 
 html[data-theme='dark'] {
-  --ifm-color-primary: hsl(214deg 100% 60%);
-  --ifm-color-primary-light: hsl(214deg 100% 75%);
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+
   --ifm-heading-color: hsl(0deg 0% 100%);
   --ifm-menu-color: #eceef1;
   --ifm-text-color: var(--ifm-menu-color);
@@ -161,7 +167,7 @@ article {
 
 .navbar {
   box-shadow: none;
-  background-color: transparent;
+  // background-color: transparent;
 
   // background-image: radial-gradient(transparent 1px, #fff 1px);
   // background-size: 3px 3px;
@@ -234,14 +240,14 @@ code {
 }
 
 div[class^='announcementBar_'] {
-  background: repeating-linear-gradient(
-    -35deg,
-    var(--ifm-color-primary-lighter),
-    var(--ifm-color-primary-lighter) 20px,
-    var(--ifm-color-primary-lightest) 10px,
-    var(--ifm-color-primary-lightest) 40px
-  );
-  font-weight: 700;
+  // background: repeating-linear-gradient(
+  //   -35deg,
+  //   var(--ifm-color-primary-darker),
+  //   var(--ifm-color-primary-darker) 20px,
+  //   var(--ifm-color-primary-darker) 10px,
+  //   var(--ifm-color-primary-darker) 40px
+  // );
+  font-weight: 550;
 }
 
 .screen-reader-only {

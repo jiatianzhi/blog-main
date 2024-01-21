@@ -12,8 +12,8 @@ const TITLE = 'Friends'
 const DESCRIPTION = '有很多良友，胜于有很多财富。'
 const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friends.tsx'
 const SITE_INFO = `
-title: '贾添植'
-description: '锦衣未加身，独在夜中行。'
+title: 'Tianzhi Jia'
+description: '贾添植'
 website: 'https://jiatianzhi.xyz'
 avatar: 'https://jiatianzhi.xyz/img/logo.png'
 `

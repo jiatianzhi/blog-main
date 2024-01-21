@@ -1,6 +1,6 @@
-import WebDeveloperSvg from '@site/static/svg/undraw_web_developer.svg'
-import OpenSourceSvg from '@site/static/svg/undraw_open_source.svg'
-import SpiderSvg from '@site/static/svg/undraw_spider.svg'
+import WebDeveloperSvg from '@site/static/svg/undraw_professor_re_mj1s.svg'
+import SpiderSvg from '@site/static/svg/undraw_connected_world_wuay.svg'
+import OpenSourceSvg from '@site/static/svg/undraw_studying_re_deca.svg'
 import Translate, { translate } from '@docusaurus/Translate'
 
 export type FeatureItem = {

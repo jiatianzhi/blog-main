@@ -20,10 +20,12 @@ const config: Config = {
       '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
   themeConfig: {
-    // announcementBar: {
-    //   id: 'announcementBar-3',
-    //   content: ``,
-    // },
+    announcementBar: {
+      id: 'announcementBar-3',
+      content: `Welcome to Tianzhi Jia's Homepage!`,
+      backgroundColor: "#2E8555", // Defaults to `#fff`.
+      textColor: "#ffffff", // Defaults to `#000`.
+    },
     metadata: [
       {
         name: 'keywords',
@@ -50,7 +52,7 @@ const config: Config = {
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
-      hideOnScroll: true,
+      hideOnScroll: false,
       items: [
         {
           label: 'Notes',
@@ -258,10 +260,13 @@ const config: Config = {
   ],
   i18n: {
     defaultLocale: 'zh-CN',
-    locales: ['en', 'zh-CN'],
+    locales: [
+      'en', 
+      'zh-CN'
+    ],
     localeConfigs: {
       en: {
-        htmlLang: 'en-GB',
+        htmlLang: 'zh-CN',
       },
     },
   },

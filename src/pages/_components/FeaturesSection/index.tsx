@@ -24,7 +24,7 @@ export default function FeaturesSection(): JSX.Element {
   return (
     <section className={clsx(styles.featureContainer, 'container padding-vert--sm')}>
       <SectionTitle icon={'ri:map-pin-user-line'}>
-        <Translate id="homepage.feature.title">Feature</Translate>
+        <Translate id="homepage.feature.title">Focus on</Translate>
       </SectionTitle>
       <div className={clsx('row', styles.features)}>
         {features.map((props, idx) => (
