@@ -41,7 +41,7 @@ const FEATURES: FeatureItem[] = [
     }),
     text: (
       <Translate>
-        Step into the future with 3D Computer Vision: Experience how we bring depth and perception to machines, transforming the digital world.
+        Step into the future with 3D Vision: Experience how we bring depth and perception to machines, transforming the digital world.
       </Translate>
     ),
     Svg: OpenSourceSvg,

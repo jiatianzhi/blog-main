@@ -9,8 +9,8 @@ import styles from './styles.module.css'
 import { motion } from 'framer-motion'
 
 const TITLE = 'Friends'
-const DESCRIPTION = '有很多良友，胜于有很多财富。'
-const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friends.tsx'
+const DESCRIPTION = 'A good friend is better than a pocket full of gold.'
+const ADD_FRIEND_URL = 'https://github.com/jiatianzhi/blog-main/edit/main/data/friends.tsx'
 const SITE_INFO = `
 title: 'Tianzhi Jia'
 description: '贾添植'
