@@ -41,7 +41,7 @@ export function prepareUserState(): ProjectState | undefined {
 function ShowcaseHeader() {
   return (
     <section className="text--center">
-      <h2>{TITLE}</h2>
+      <h1>{TITLE}</h1>
       <p>{DESCRIPTION}</p>
       {/* <a
         className="button button--primary"

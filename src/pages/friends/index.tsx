@@ -16,12 +16,13 @@ title: 'Tianzhi Jia'
 description: '贾添植'
 website: 'https://jiatianzhi.xyz'
 avatar: 'https://jiatianzhi.xyz/img/logo.png'
+
 `
 
 function SiteInfo() {
   return (
     <div className={styles.siteInfo}>
-      <CodeBlock language="yaml" title="本站信息">
+      <CodeBlock language="yaml" title="Information of the Website">
         {SITE_INFO}
       </CodeBlock>
     </div>

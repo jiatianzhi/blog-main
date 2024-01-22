@@ -64,9 +64,9 @@ function BlogListPageContent(props: Props) {
 
   return (
     <MyLayout>
-      <h2 className={styles.blogTitle}>
+      <h1 className={styles.blogTitle}>
         <Translate id="theme.blog.title.new">Blogs</Translate>
-      </h2>
+      </h1>
       <p className={styles.blogDescription}>In the age of information, a blog is a person's castle.</p>
       <ViewTypeSwitch viewType={viewType} toggleViewType={toggleViewType} />
       <div className="row">
