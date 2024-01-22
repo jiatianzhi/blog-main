@@ -225,7 +225,7 @@ const config: Config = {
         pwaHead: [
           { tagName: 'link', rel: 'icon', href: '/img/logo.png' },
           { tagName: 'link', rel: 'manifest', href: '/manifest.json' },
-          { tagName: 'meta', name: 'theme-color', content: '#12affa' },
+          { tagName: 'meta', name: 'theme-color', content: '#2e8555' },
         ],
       },
     ],

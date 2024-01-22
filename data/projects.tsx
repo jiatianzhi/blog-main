@@ -229,7 +229,7 @@ export const Tags: Record<TagType, Tag> = {
   personal: {
     label: '个人',
     description: '个人项目',
-    color: '#12affa',
+    color: '#2e8555',
   },
 }
 
