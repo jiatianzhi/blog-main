@@ -1,5 +1,5 @@
 {
-  "name": "blog",
+  "name": "blogs",
   "version": "3.0.0",
   "author": {
     "url": "https://github.com/kuizuo",
@@ -7,7 +7,7 @@
     "name": "Kuizuo"
   },
   "repository": {
-    "url": "https://github.com/kuizuo/blog",
+    "url": "https://github.com/kuizuo/blogs",
     "type": "git"
   },
   "homepage": "https://kuizuo.cn",

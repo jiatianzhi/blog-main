@@ -57,12 +57,19 @@ const config: Config = {
         {
           label: 'Notes',
           position: 'right',
-          to: 'docs/skill',
+          to: 'docs/notes',
+          items: [
+            { label: 'Skills', to: 'docs/skill' },
+            { label: 'Tools', to: 'docs/tools' },
+          ],
         },
         {
           label: 'Blogs',
           position: 'right',
           to: 'blog',
+          items: [
+            { label: 'Archive', to: 'blog/archive' },
+          ],
         },
         {
           label: 'Projects',
@@ -73,10 +80,9 @@ const config: Config = {
           label: 'More',
           position: 'right',
           items: [
-            { label: 'Archive', to: 'blog/archive' },
+            { label: 'About Me', to: '/about' },
             { label: 'Friends', to: 'friends' },
             { label: 'Links', to: 'resources' },
-            { label: 'Recommended Tools', to: 'docs/tools' },
           ],
         },
         {
@@ -91,7 +97,7 @@ const config: Config = {
         {
           title: 'Study',
           items: [
-            { label: 'Notes', to: 'docs/skill' },
+            { label: 'Notes', to: 'docs/notes' },
             { label: 'Blogs', to: 'blog' },
             { label: 'Archive', to: 'blog/archive' },
             { label: 'Projects', to: 'project' },

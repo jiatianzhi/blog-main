@@ -1,6 +1,6 @@
 export const projects: Project[] = [
   {
-    title: "Tianzhi Jia's Homepage",
+    title: "My Homepage",
     description: '🦖 基于 Docusaurus 静态网站生成器实现个人主页',
     preview: '/img/project/blog.png',
     website: 'https://jiatianzhi.xyz',

@@ -34,7 +34,7 @@ function FriendHeader() {
       <h1>{TITLE}</h1>
       <p>{DESCRIPTION}</p>
       <a className="button button--primary" href={ADD_FRIEND_URL} target="_blank" rel="noreferrer">
-        🔗 申请友链
+        🔗 Link Exchange
       </a>
     </section>
   )

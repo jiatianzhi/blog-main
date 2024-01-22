@@ -336,6 +336,24 @@ const sidebars: SidebarsConfig = {
     'tools/vite-plugin',
     'tools/jetbrains-product-activation-method',
   ],
+  notes: [
+    'notes/introduction',
+    {
+      label: 'PyTorch',
+      type: 'category',
+      link: {
+        type: 'doc',
+        id: 'notes/pytorch/test',
+      },
+      items: [
+        'notes/pytorch/test1',
+        'notes/pytorch/test2',
+        'notes/pytorch/test3',
+        'notes/pytorch/test4',
+        'notes/pytorch/test5',
+      ],
+    },
+  ],
 }
 
 module.exports = sidebars
