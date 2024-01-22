@@ -17,7 +17,7 @@
   },
   "link.item.label.笔记": {
     "message": "笔记",
-    "description": "The label of footer link with label=笔记 linking to docs/skill"
+    "description": "The label of footer link with label=笔记 linking to docs/notes"
   },
   "link.item.label.实战项目": {
     "message": "实战项目",
