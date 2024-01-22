@@ -103,7 +103,7 @@ const socialSet: Record<keyof Social, SocialValue> = {
     color: '#C20C0C',
   },
   // rss: {
-  //   href: '/blogs/rss.xml',
+  //   href: '/blog/rss.xml',
   //   title: 'RSS',
   //   icon: 'ri:rss-line',
   //   color: '#FFA501',
