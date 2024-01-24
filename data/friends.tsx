@@ -84,6 +84,12 @@ export const Friends: Friend[] = [
     avatar: '/img/friend/yuanjie gu.jpg',
   },
   {
+    title: 'Xiaofeng Zhang',
+    description: '张晓峰',
+    website: 'https://zhangbaijin.github.io/',
+    avatar: '/img/friend/xiaofeng zhang.jpg',
+  },
+  {
     title: 'Xin Fu',
     description: '符鑫',
     website: 'https://xinfu607.github.io/',
