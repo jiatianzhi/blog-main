@@ -131,7 +131,7 @@ export default function Hero() {
       </div>
       <motion.div className={styles.background}>
         <Skills />
-        <HeroMain style={{ width: '900px', height: '900px' }}/>
+        <HeroMain />
         <Circle />
       </motion.div>
     </motion.div>
