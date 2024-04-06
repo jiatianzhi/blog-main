@@ -85,10 +85,10 @@ const config: Config = {
             { label: 'Links', to: 'resources' },
           ],
         },
-        {
-          type: 'localeDropdown',
-          position: 'left',
-        },
+        // {
+        //   type: 'localeDropdown',
+        //   position: 'left',
+        // },
       ],
     },
     footer: {
@@ -236,7 +236,7 @@ const config: Config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: "In the age of information, a blog is a person's castle.",
+        blogDescription: "--·--",
         blogSidebarCount: 10,
         blogSidebarTitle: 'Blogs',
         postsPerPage: 10,

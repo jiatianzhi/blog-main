@@ -68,7 +68,7 @@ export const Friends: Friend[] = [
   {
     title: 'Zhaoxin Fan',
     description: '范肇心',
-    website: 'http://zhaoxinf.top/',
+    website: 'https://zhaoxinf.github.io/',
     avatar: '/img/friend/xiaoxiao.jpg',
   },
   {
@@ -124,6 +124,12 @@ export const Friends: Friend[] = [
     description: '冀昱衡',
     website: 'https://yuheng2000.github.io/',
     avatar: '/img/friend/yuheng ji.png',
+  },
+  {
+    title: 'Haiyang Liu',
+    description: '刘海洋',
+    website: 'https://h-liu1997.github.io/',
+    avatar: '/img/friend/haiyang liu.jpg',
   },
 ]
 
