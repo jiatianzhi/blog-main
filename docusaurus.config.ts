@@ -74,7 +74,7 @@ const config: Config = {
         {
           label: 'Projects',
           position: 'right',
-          to: 'project',
+          to: 'projects',
         },
         {
           label: 'More',
@@ -82,7 +82,7 @@ const config: Config = {
           items: [
             { label: 'About Me', to: '/about' },
             { label: 'Friends', to: 'friends' },
-            { label: 'Links', to: 'resources' },
+            { label: 'Links', to: 'links' },
           ],
         },
         // {
@@ -100,7 +100,7 @@ const config: Config = {
             { label: 'Notes', to: 'docs/notes' },
             { label: 'Blogs', to: 'blog' },
             { label: 'Archive', to: 'blog/archive' },
-            { label: 'Projects', to: 'project' },
+            { label: 'Projects', to: 'projects' },
           ],
         },
         {

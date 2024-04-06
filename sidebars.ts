@@ -1,22 +1,22 @@
 import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
 
 const sidebars: SidebarsConfig = {
-  skill: [
+  skills: [
     
-    'skill/introduction',
+    'skills/introduction',
     {
       label: 'PyTorch',
       type: 'category',
       link: {
         type: 'doc',
-        id: 'skill/pytorch/test',
+        id: 'skills/pytorch/test',
       },
       items: [
-        'skill/pytorch/test1',
-        'skill/pytorch/test2',
-        'skill/pytorch/test3',
-        'skill/pytorch/test4',
-        'skill/pytorch/test5',
+        'skills/pytorch/test1',
+        'skills/pytorch/test2',
+        'skills/pytorch/test3',
+        'skills/pytorch/test4',
+        'skills/pytorch/test5',
       ],
     },
     

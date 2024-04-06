@@ -1,6 +1,6 @@
 ---
 id: introduction
-slug: /skill
+slug: /skills
 title: Skills
 keywords:
   - 前端

@@ -72,7 +72,7 @@ export default function UserCard({ isNavbar = false }: { isNavbar?: boolean }) {
           <Icon icon="ri:price-tag-3-line" width="20" height="20" />
           {count.tag}
         </Link> */}
-        <Link className={styles.numItem} href="/project" data-tips="project count">
+        <Link className={styles.numItem} href="/projects" data-tips="project count">
           <Icon icon="ph:projector-screen" width="20" height="20" />
           {count.project}
         </Link>
