@@ -59,7 +59,7 @@ const config: Config = {
           position: 'right',
           to: 'docs/notes',
           items: [
-            { label: 'Skills', to: 'docs/skill' },
+            { label: 'Skills', to: 'docs/skills' },
             { label: 'Tools', to: 'docs/tools' },
           ],
         },
@@ -117,7 +117,7 @@ const config: Config = {
           items: [
             { label: 'About Me', to: '/about' },
             { label: 'Friends', position: 'right', to: 'friends' },
-            { label: 'Links', position: 'right', to: 'resources' },
+            { label: 'Links', position: 'right', to: 'links' },
             {
               html: `
                 <a href="https://docusaurus.io/zh-CN/" target="_blank" rel="noreferrer noopener">
