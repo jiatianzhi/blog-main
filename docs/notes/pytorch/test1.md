@@ -362,32 +362,3 @@ x = torch.tensor(1.0)
 output = tudui(x)
 print(output)
 ```
-
-
-Text-guided 3D shape generation (T-3DSG) has emerged as a promising research area, offering significant advantages in creating 3D tasks with the guidance of text. 
-
-
-
-
-
-Addressing this challenge, we introduce a novel latent mapping-based zero-shot learning framework (LMZLF) for T-3DSG. 
-
-Our approach circumvents the need for text-shape pairing datasets by leveraging rendered images for training and textual prompts for testing. 
-
-
-
-At the core of LMZLF is an innovative latent mapping module, expertly designed to manipulate latent codes within the 3D shape latent space. 
-
-This specialized module empowers a single model to adapt effectively and produce a wide range of shapes in response to unseen textual prompts, 
-
-thus eliminating the need for labor-intensive one-to-one optimization and demonstrating robust generalization capabilities.
-
-
-
-To achieve zero-shot learning, our proposed LMZLF incorporates the principles of the Contrastive Language–Image Pretraining (CLIP). 
-
-This integration is pivotal in effectively utilizing rendered images for training and textual prompts for testing, bypassing the dependency on text-shape paired datasets. 
-
-To validate the efficacy of our model, we conducted extensive qualitative and quantitative evaluations using the ShapeNetV2 benchmark. 
-
-Our comprehensive experiments exhibit the exceptional superiority of our method compared to other zero-shot learning strategies and advanced supervised learning methodologies, particularly in text-prompt-driven 3D shape generation and manipulation. This underscores our framework's potential in revolutionizing the realm of 3D shape creation guided by textual inputs.
