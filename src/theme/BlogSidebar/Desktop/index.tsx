@@ -37,7 +37,7 @@ export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
           </div>
         )}
 
-        <Link href="/blogs" className={clsx(styles.sidebarItemTitle, 'margin-bottom--sm')}>
+        <Link href="/blog" className={clsx(styles.sidebarItemTitle, 'margin-bottom--sm')}>
           {sidebar.title}
         </Link>
         <ul className={clsx(styles.sidebarItemList, 'clean-list')}>
