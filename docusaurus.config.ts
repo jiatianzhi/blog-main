@@ -136,11 +136,11 @@ const config: Config = {
         <p>Copyright © 2024 Tianzhi Jia Built with Docusaurus.</p>
         `,
     },
-    algolia: {
-      appId: 'GV6YN1ODMO',
-      apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
-    },
+    // algolia: {
+    //   appId: '',
+    //   apiKey: '',
+    //   indexName: '',
+    // },
     prism: {
       theme: themes.oneLight,
       darkTheme: themes.oneDark,
