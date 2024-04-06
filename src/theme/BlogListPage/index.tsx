@@ -67,7 +67,7 @@ function BlogListPageContent(props: Props) {
       <h1 className={styles.blogTitle}>
         <Translate id="theme.blog.title.new">Blogs</Translate>
       </h1>
-      <p className={styles.blogDescription}>--·--</p>
+      <p style={{ minHeight: '1em' }}></p>
       <ViewTypeSwitch viewType={viewType} toggleViewType={toggleViewType} />
       <div className="row">
         <div className={'col col--12'}>

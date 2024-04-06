@@ -42,7 +42,7 @@ function ShowcaseHeader() {
   return (
     <section className="text--center">
       <h1>{TITLE}</h1>
-      <p>{DESCRIPTION}</p>
+      {/* <p>{DESCRIPTION}</p> */}
       {/* <a
         className="button button--primary"
         href={GITHUB_URL}
