@@ -131,6 +131,18 @@ export const Friends: Friend[] = [
     website: 'https://h-liu1997.github.io/',
     avatar: '/img/friend/haiyang liu.jpg',
   },
+  {
+    title: 'Delong Chen',
+    description: '陈德龙',
+    website: 'https://chendelong.world/',
+    avatar: '/img/friend/delong chen.jpeg',
+  },
+  {
+    title: 'Zhedong Zheng',
+    description: '郑哲东',
+    website: 'https://www.zdzheng.xyz/',
+    avatar: '/img/friend/zhedong zheng.webp',
+  },
 ]
 
 export type Friend = {
