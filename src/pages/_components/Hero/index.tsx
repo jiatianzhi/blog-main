@@ -106,7 +106,7 @@ export default function Hero() {
       <div className={styles.intro}>
         <Name />
         <motion.p custom={2} initial="hidden" animate="visible" variants={variants}>
-          <Translate id="homepage.hero.text">
+          <Translate id='<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Keep+Learning+is+All+We+Need." alt="Typing SVG" /></a>'>
             {`Keep Learning is All We Need.`}
           </Translate>
         </motion.p>
